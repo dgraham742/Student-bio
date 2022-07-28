@@ -113,7 +113,7 @@ p {
   }
   .page section {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;l
   }
   .page-section h2 {
     border-right: none;
@@ -144,7 +144,8 @@ p {
     color: #673Ab7;
 }
 .page-section img {
-    max-height: 200px;
+    max-height: 600px;
+    max-width: 600px;
 }
 
 .page-section img {
@@ -176,12 +177,13 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-.footer {
+.contact {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+.contact h3 {
     font-size: 20px;
+}
